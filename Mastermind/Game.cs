@@ -39,10 +39,10 @@ namespace Mastermind
                 b.DrawBoard(Board.PlayBoard);
 
                 Turn++;
-                //b.DrawResultBoard();
+               
 
             }
-
+            b.DrawResultBoard();
             if (Win)
             {
                 Console.WriteLine($"Du vandt!! i {Turn} omgange");
